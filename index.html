@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Missie Ei-genwijs</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div class="content header-content">
+        <img src="./images/paashaas.webp" width="80px">
+        <h1>Missie Ei-genwijs</h1> 
+    </div>
+    </header>
+    <main>
+        <div class="content main-content">
+            <div class="intro">
+                <p>
+                    De Paashaas is op missie! Hij probeert alle codes te kraken. Maar hij kan dit niet alleen!
+                </p>
+                <p>
+                    Achter elk deurtje zit een opdracht. Door de goede oplossing in te vullen, gaat het volgende deurtje open.
+                    Help jij de Paashaas alle opdrachten op te lossen?
+                </p>
+                <p>
+                    <strong>Tip! </strong>Pak pen en papier erbij. Schrijven of tekenen kan je helpen de codes te kraken.
+                </p>
+            </div>
+            <div class="challenges">
+                <div class="challenge">
+                    <div class="door can-open js-door-open" data-door="1">
+                        <div>
+                            <span class="number">1</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="1">Open</button>
+                    <dialog data-dialog="1">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="1"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 1</h1>
+                            <p>Kan jij de Paashaas helpen de code te kraken?</p>
+                            <img src="images/alfabet.png" width="100%"/>
+                            <p>Zoek de juiste letter bij het cijfer:</p>
+                            <div class="puzzel">11   21   9   11   5   14   20   10   5</div>
+
+                            <form class="answer-form">
+                                <input type="text" class="js-answer" data-input="1" />
+                                <button type="button" class="clean-button js-check-button" data-check="1">Check antwoord</button>
+                                <div class="lock-container js-lock-container" data-container="1">
+                                    <img src="./images/lock.svg" class="lock js-lock is-visible" data-lock="1">
+                                    <img src="./images/unlock.svg" class="un-lock js-un-lock is-hidden" data-unlock="1">
+                                    <img src="./images/lock-red.svg" class="lock-red js-lock-red is-hidden" data-redlock="1">
+                                </div>
+                            </form>
+                        </div>
+                    </dialog>
+                </div>
+
+                <div class="challenge">
+                    <div class="door js-door-open" data-door="2">
+                        <div>
+                            <span class="number">2</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="2">Open</button>
+                    <dialog data-dialog="2">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="2"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 2</h1>
+                            <p>Kan jij de Paashaas helpen de som op te lossen?</p>
+                            <img src="images/rekenpuzzel.png" width="100%">
+                            
+                            <form class="answer-form">
+                                <input type="text" class="js-answer" data-input="2" />
+                                <button type="button" class="clean-button js-check-button" data-check="2">Check antwoord</button>
+                                <div class="lock-container js-lock-container" data-container="2">
+                                    <img src="./images/lock.svg" class="lock js-lock is-visible" data-lock="2">
+                                    <img src="./images/unlock.svg" class="un-lock js-un-lock is-hidden" data-unlock="2">
+                                    <img src="./images/lock-red.svg" class="lock-red js-lock-red is-hidden" data-redlock="2">
+                                </div>
+                            </form>
+                        </div>
+                    </dialog>
+                </div>
+
+                <div class="challenge">
+                    <div class="door js-door-open" data-door="3">
+                        <div>
+                            <span class="number">3</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="3">Open</button>
+                    <dialog data-dialog="3">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="3"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 3</h1>
+                            <p>Kan jij de Paashaas helpen de code te kraken?</p>
+                            <img src="images/pigpen.png" width="100%" />
+                            <p>Zoek de juiste letter bij het teken</p>
+                            <div>
+                                <img src="images/pigpenpuzzel.png" width="45%"/>
+                            </div>
+                            <form class="answer-form">
+                                <input type="text" class="js-answer" data-input="3" />
+                                <button type="button" class="clean-button js-check-button" data-check="3">Check antwoord</button>
+                                <div class="lock-container js-lock-container" data-container="3">
+                                    <img src="./images/lock.svg" class="lock js-lock is-visible" data-lock="3">
+                                    <img src="./images/unlock.svg" class="un-lock js-un-lock is-hidden" data-unlock="3">
+                                    <img src="./images/lock-red.svg" class="lock-red js-lock-red is-hidden" data-redlock="3">
+                                </div>
+                            </form>
+                        </div>
+                    </dialog>
+                </div>
+
+                <div class="challenge">
+                    <div class="door js-door-open" data-door="4">
+                        <div>
+                            <span class="number">4</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="4">Open</button>
+                    <dialog data-dialog="4">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="4"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 4</h1>
+                            <img src="images/coordinaten.png" width="100%" />
+                            <p>Vind de juiste letter op het goede plekje.</p>
+                            <div class="puzzel">
+                                (6,C)   (2,E)   (3,B)   (4,H)   (5,F)   (1,A)   (8,A)
+                            </div>
+                            <form class="answer-form">
+                                <input type="text" class="js-answer" data-input="4" />
+                                <button type="button" class="clean-button js-check-button" data-check="4">Check antwoord</button>
+                                <div class="lock-container js-lock-container" data-container="4">
+                                    <img src="./images/lock.svg" class="lock js-lock is-visible" data-lock="4">
+                                    <img src="./images/unlock.svg" class="un-lock js-un-lock is-hidden" data-unlock="4">
+                                    <img src="./images/lock-red.svg" class="lock-red js-lock-red is-hidden" data-redlock="4">
+                                </div>
+                            </form>
+                        </div>
+                    </dialog>
+                </div>
+
+                <div class="challenge">
+                    <div class="door js-door-open" data-door="5">
+                        <div>
+                            <span class="number">5</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="5">Open</button>
+                    <dialog data-dialog="5">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="5"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 5</h1>
+                            <img src="images/geheimschrift.png" width="100%" />
+                            <p>Vind de juiste letter bij het goede plaatje</p>
+                            <img src="images/letterpuzzel.png" width="45%" />
+                            <form class="answer-form">
+                                <input type="text" class="js-answer" data-input="5" />
+                                <button type="button" class="clean-button js-check-button" data-check="5">Check antwoord</button>
+                                <div class="lock-container js-lock-container" data-container="5">
+                                    <img src="./images/lock.svg" class="lock js-lock is-visible" data-lock="5">
+                                    <img src="./images/unlock.svg" class="un-lock js-un-lock is-hidden" data-unlock="5">
+                                    <img src="./images/lock-red.svg" class="lock-red js-lock-red is-hidden" data-redlock="5">
+                                </div>
+                            </form>
+                        </div>
+                    </dialog>
+                </div>
+
+                <div class="challenge">
+                    <div class="door js-door-open" data-door="6">
+                        <div>
+                            <span class="number">6</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="6">Open</button>
+                    <dialog data-dialog="6">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="6"><img src="./images/close.svg"></button>
+                            <p class="happy-easter">Vrolijk Pasen!</p>
+                            <img src="images/vrolijkpasen.gif" width="100%" />
+                        </div>
+                    </dialog>
+                </div>
+            </div>
+        </div>
+        <canvas id="confetti" class="js-confetti"></canvas>
+
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
