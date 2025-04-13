@@ -8,18 +8,18 @@
             'kuikentje',
             'Kuikentje',
             'KUIKENTJE
-        ]
+        ],
         2: '19',
         3: [
             'lente',
             'Lente',
             'LENTE'
-        ]
+        ],
         4: [
             'lammetje',
             'Lammetje',
             'LAMMETJE
-        ]
+        ],
         5: [
             'paasei',
             'Paasei',
