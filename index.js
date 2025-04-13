@@ -1,4 +1,4 @@
-(() => {
+s(() => {
     const HIDDEN_CLASS = 'is-hidden';
     const VISIBLE_CLASS = 'is-visible';
     const CHECKING_CLASS = 'is-checking';
@@ -101,7 +101,7 @@
             removeVisibleClass(correspondingRedLock);
             addVisibleClass(correspondingLock);
 
-            if (correspondingAnswer.value === ANSWERS[Number(dataAttrValue)]) {
+            if (correspondingAnswer.value === ANSWERS[Number(dataAttrValue)] || (Array.isArray(ANSWERS[Number(dataAttrValue)]) && ANSWERS[Number(dataAttrValue)].includes(correspondingAnswer.value)) ) {
                 setTimeout(() => {
                     addHiddenClass(correspondingLock);
                     removeVisibleClass(correspondingLock);
