@@ -7,7 +7,7 @@
         1: [
             'kuikentje',
             'Kuikentje',
-            'KUIKENTJE
+            'KUIKENTJE'
         ],
         2: '19',
         3: [
@@ -18,7 +18,7 @@
         4: [
             'lammetje',
             'Lammetje',
-            'LAMMETJE
+            'LAMMETJE'
         ],
         5: [
             'paasei',
