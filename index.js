@@ -1,4 +1,4 @@
-s(() => {
+(() => {
     const HIDDEN_CLASS = 'is-hidden';
     const VISIBLE_CLASS = 'is-visible';
     const CHECKING_CLASS = 'is-checking';
