@@ -4,11 +4,27 @@
     const CHECKING_CLASS = 'is-checking';
 
     const ANSWERS = {
-        1: 'kuikentje',
+        1: [
+            'kuikentje',
+            'Kuikentje',
+            'KUIKENTJE
+        ]
         2: '19',
-        3: 'lente',
-        4: 'lammetje',
-        5: 'paasei',
+        3: [
+            'lente',
+            'Lente',
+            'LENTE'
+        ]
+        4: [
+            'lammetje',
+            'Lammetje',
+            'LAMMETJE
+        ]
+        5: [
+            'paasei',
+            'Paasei',
+            'PAASEI'
+        ]
     }
 
     const forms = document.querySelectorAll('form');
